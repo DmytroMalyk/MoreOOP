@@ -9,7 +9,7 @@ import org.reflections.Reflections;
 
 
 public class CharacterFactory {
-    Reflections reflections = new Reflections("com.my.project");
+    Reflections reflections = new Reflections("lotr");
 
     public Character createCharacter() throws InstantiationException, IllegalAccessException, 
  IllegalArgumentException, InvocationTargetException, NoSuchMethodException, SecurityException {
