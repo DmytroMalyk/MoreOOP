@@ -31,7 +31,7 @@ public abstract class Character {
     }
 
     protected static int generateRandomAttribute(int base, int range) {
-        return random.nextInt(range) + base;
+        return random.nextInt(range - base) + base;
     }
 
     @Override
