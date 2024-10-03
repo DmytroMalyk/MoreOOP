@@ -5,6 +5,7 @@ import java.util.Random;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+
 import lotr.kickstrategy.KickStrategy;
 
 @Getter @Setter @AllArgsConstructor
